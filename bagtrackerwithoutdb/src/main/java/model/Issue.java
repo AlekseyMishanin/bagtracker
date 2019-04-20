@@ -80,4 +80,12 @@ public class Issue extends Essence{
                 .filter((n)->n.indexOf(user.getName())!=-1)     //проверяем имя пользователя
                 .count()>0;                                     //на выходе получаем или 0 если нет совпадений, или >0 в противном случае
     }
+
+    public Project getProject() {
+        return project;
+    }
+
+    public User getUser() {
+        return user;
+    }
 }

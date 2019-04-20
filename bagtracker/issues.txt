@@ -1,6 +1,0 @@
-isses1 project1 user1
-isses2 project2 user2
-isses3 project3 user3
-isses4 project4 user4
-isses5 project5 user5
-is1 pr1 us1

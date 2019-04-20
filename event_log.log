@@ -1,11 +1,31 @@
-2019-04-20 11:49:28 INFO  BagTracker:81 - Use command addUser with arguments: pr1
-2019-04-20 11:53:21 ERROR BagTracker:66 - Issue already exists: pr1
-2019-04-20 11:53:50 INFO  BagTracker:81 - Use command addProject with arguments: pr2
-2019-04-20 11:54:21 ERROR BagTracker:66 - Issue already exists: pr2
-2019-04-20 11:54:46 INFO  BagTracker:101 - Use command addUser with arguments: us1
-2019-04-20 11:55:23 INFO  BagTracker:91 - Use command addIssue with arguments: is1
-2019-04-20 11:57:01 INFO  BagTracker:91 - Use command addIssue with arguments: is1
-2019-04-20 11:57:55 INFO  BagTracker:122 - Use command reportAll with arguments: users
-2019-04-20 11:58:13 INFO  BagTracker:122 - Use command reportAll with arguments: issue
-2019-04-20 11:58:30 INFO  BagTracker:122 - Use command reportAll with arguments: projeckt
-2019-04-20 11:59:08 INFO  BagTracker:114 - Use command reportSome with arguments: project1, user1
+2019-04-20 17:21:39 ERROR BagTracker:99 - User already exists: user1
+2019-04-20 17:21:50 INFO  BagTracker:128 - Use command addProject with arguments: ptod1
+2019-04-20 17:22:04 INFO  BagTracker:214 - Use command reportAll with arguments: users
+2019-04-20 20:52:35 ERROR DBServise:25 - org.sqlite:JDBC
+2019-04-20 20:52:59 ERROR DBServise:74 - [SQLITE_ERROR] SQL error or missing database (table issue already exists)
+2019-04-20 20:53:52 ERROR DBServise:95 - SQLite does not support Stored Procedures
+2019-04-20 21:03:05 ERROR DBServise:88 - [SQLITE_ERROR] SQL error or missing database (no such column: user1)
+2019-04-20 21:06:39 ERROR DBServise:88 - [SQLITE_ERROR] SQL error or missing database (no such column: user1)
+2019-04-20 21:07:37 ERROR DBServise:88 - [SQLITE_ERROR] SQL error or missing database (no such table: test.users)
+2019-04-20 21:10:59 INFO  DBServise:80 - User "user1"successfully added
+2019-04-20 21:12:38 INFO  DBServise:80 - User "user1"successfully added
+2019-04-20 21:12:55 INFO  DBServise:100 - Project "project1"successfully added
+2019-04-20 21:13:48 ERROR DBServise:129 - [SQLITE_ERROR] SQL error or missing database (table project has no column named iduser)
+2019-04-20 21:15:10 INFO  BagTracker:163 - Use command reportAll with arguments: users
+2019-04-20 21:16:34 INFO  DBServise:121 - Issue "issue1"successfully added
+2019-04-20 21:19:30 ERROR DBServise:88 - [SQLITE_ERROR] SQL error or missing database (no such table: test.users)
+2019-04-20 21:20:46 INFO  DBServise:80 - User "user1"successfully added
+2019-04-20 21:21:16 ERROR DBServise:130 - [SQLITE_ERROR] SQL error or missing database (table project has no column named iduser)
+2019-04-20 21:22:25 INFO  DBServise:121 - Issue "issue1"successfully added
+2019-04-20 21:23:51 ERROR BagTracker:98 - [SQLITE_ERROR] SQL error or missing database (no such column: project.name)
+2019-04-20 21:31:03 INFO  BagTracker:163 - Use command reportAll with arguments: issue
+2019-04-20 21:31:03 ERROR BagTracker:98 - column 0 out of bounds [1,4]
+2019-04-20 21:32:07 ERROR BagTracker:98 - column 0 out of bounds [1,4]
+2019-04-20 21:33:07 INFO  BagTracker:163 - Use command reportAll with arguments: users
+2019-04-20 21:33:07 ERROR BagTracker:98 - column 0 out of bounds [1,2]
+2019-04-20 21:33:52 INFO  BagTracker:163 - Use command reportAll with arguments: project
+2019-04-20 21:33:52 ERROR BagTracker:98 - column 0 out of bounds [1,2]
+2019-04-20 21:34:35 INFO  BagTracker:163 - Use command reportAll with arguments: users
+2019-04-20 21:38:28 ERROR BagTracker:98 - column 0 out of bounds [1,2]
+2019-04-20 21:39:29 INFO  BagTracker:163 - Use command reportAll with arguments: users
+2019-04-20 21:40:23 INFO  BagTracker:163 - Use command reportAll with arguments: users

@@ -14,9 +14,9 @@ import java.io.IOException;
  * */
 public interface Command {
 
-    public void addProject(Project project) throws ProjectAlreadyExistsException, IOException;
-    public void addIssue(Issue issue) throws IssueAlreadyExistsException, IOException;
-    public void addUser(User user) throws IOException, UserAlreadyExistsException;
-    public void reportAll(String value) throws IOException;
-    public void reportSome(Project project, User user) throws IOException;
+    void addProject(Project project) throws ProjectAlreadyExistsException, IOException;
+    void addIssue(Issue issue) throws IssueAlreadyExistsException, IOException;
+    void addUser(User user) throws IOException, UserAlreadyExistsException;
+    void reportAll(String value) throws IOException;
+    void reportSome(Project project, User user) throws IOException;
 }
