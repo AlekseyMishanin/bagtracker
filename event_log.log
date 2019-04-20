@@ -1,0 +1,11 @@
+2019-04-20 11:49:28 INFO  BagTracker:81 - Use command addUser with arguments: pr1
+2019-04-20 11:53:21 ERROR BagTracker:66 - Issue already exists: pr1
+2019-04-20 11:53:50 INFO  BagTracker:81 - Use command addProject with arguments: pr2
+2019-04-20 11:54:21 ERROR BagTracker:66 - Issue already exists: pr2
+2019-04-20 11:54:46 INFO  BagTracker:101 - Use command addUser with arguments: us1
+2019-04-20 11:55:23 INFO  BagTracker:91 - Use command addIssue with arguments: is1
+2019-04-20 11:57:01 INFO  BagTracker:91 - Use command addIssue with arguments: is1
+2019-04-20 11:57:55 INFO  BagTracker:122 - Use command reportAll with arguments: users
+2019-04-20 11:58:13 INFO  BagTracker:122 - Use command reportAll with arguments: issue
+2019-04-20 11:58:30 INFO  BagTracker:122 - Use command reportAll with arguments: projeckt
+2019-04-20 11:59:08 INFO  BagTracker:114 - Use command reportSome with arguments: project1, user1
